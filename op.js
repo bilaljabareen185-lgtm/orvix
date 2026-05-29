@@ -6,7 +6,7 @@ function login(){
     let password = document.getElementById("pass").value;
 
     if(username === "admin@gmail.com" && password === "1234"){
-        window.location.href = "index.html";
+        window.location.href = "home.html";
     }else{
         document.getElementById("msg").innerHTML = "You are not allowed";
     }
@@ -78,7 +78,7 @@ cartBadge.addEventListener("click", () => {
     }
        
    function trycountry(){
-       window.location.href="index.html"
+       window.location.href="home.html"
     }
     function shoping(){
         window.location.href="shop.html"
